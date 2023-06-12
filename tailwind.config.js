@@ -6,6 +6,14 @@ module.exports = {
     './src/app/**/*.{js,ts,jsx,tsx,mdx}',
   ],
   theme: {
+    color: {
+        transparent: 'transparent',
+        white: '#ffffff',
+        background: '#040714',
+        buttonLogin: '#040714',
+        buttonToSing:'#0063e5',
+        buttonMain: '#6421ff',
+      },
     extend: {
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',

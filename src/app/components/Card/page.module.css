@@ -1,0 +1,89 @@
+.section{
+    position: relative;
+    justify-content: flex-start;
+    min-height: 75vh;
+    padding: 5.6vw;
+    display: flex;
+    align-items: center;
+   
+}
+
+.section_content{
+    display: block;
+    z-index: 1;
+    text-align: center;
+
+
+}
+
+.section_content picture > img{
+    margin: auto;
+    margin-bottom: 3rem;
+    max-width: 320px;
+    
+
+}
+.section_content h2{
+    margin-bottom: 2rem;
+    font-size: 3rem;
+    color: white;
+    font-weight: 500;
+
+}
+.section_content ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2.4rem;
+
+}
+.section_content li {
+    display: block;
+
+    flex: 0 0 calc(50% - 12px);
+    width: calc(50% - 12px);
+}
+
+
+.section_content a {
+    background-color: #6421ff;
+    display: block;
+    height: 6rem;
+    color:white;
+    
+   
+
+}
+
+.section_content span {
+    display: inline-flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    height: 4rem;
+
+    font-weight: 500;
+    font-size: 1.8rem;
+    
+}
+
+
+/*   Background   */
+.section_background {
+    background-image: url('https://cnbl-cdn.bamgrid.com/assets/6ad18f0d3ba4e6f51d1cb530683e1f0feca89858a176ecce9a76ebcaf43c7bd7/original');
+    background-repeat: no-repeat;
+    min-height: 75vh;
+    display: block;
+
+
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 0;
+}
+
+.lg{
+    background-position: top;
+    background-size: 100%;
+}
