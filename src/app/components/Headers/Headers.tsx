@@ -4,6 +4,12 @@ import Image from "next/image";
 export default function Headers (){
     return (
    <header className={styles.header}>
+        {/* <nav className={styles.nav}>
+            <ul className={styles.ul}> 
+                <li className={styles.li}>
+                <Button name="Entrar" page="login"></Button></li>
+            </ul>
+        </nav>   */}
         <nav className={styles.nav}>
             <ul className={styles.ul}>
                 <li>

@@ -3,6 +3,8 @@
     height: 4.5rem;
     position:absolute;
     z-index: 1;
+    position: sticky;
+    top: 1.3rem;
 }
 
 .ul{
@@ -45,4 +47,7 @@
     border:0;
     border-radius: .5rem;
 
+
+
 }
+
